@@ -1,0 +1,137 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa", cursive;
+  font-size: 16px;
+  color: #555;
+  background-color: #fff;
+  font-weight: 300;
+  scroll-behavior: smooth;
+
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+.main-header {
+  background-image: url(img/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.main-content {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+h1 {
+  color: #fff;
+  font-weight: 600 !important;
+}
+
+/* feature Sections  */
+
+h2 {
+  color: #555;
+  text-align: center;
+}
+
+.underline {
+  width: 100px;
+  height: 2px;
+  background-color: #7eb0f4;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.feature-text {
+  color: #555;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.feature-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: #7eb0f4;
+  
+}
+
+
+/* showcase */
+
+.showcase{
+  background-color:#999;
+}
+
+
+
+
+/* ----------------------------------------------- */
+/* footer*/
+/* ----------------------------------------------- */
+
+footer {
+  background-color: #333;
+  padding: 50px;
+  font-size: 80%;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  font-size: 160%;
+}
+
+footer p {
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
+}
