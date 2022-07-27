@@ -1,1 +1,3 @@
 # Lovelyfoods
+
+![Screenshot](screenshot.png)
